@@ -1,0 +1,796 @@
+@media only screen and (max-width:1200px){
+    .hero-section .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-img {
+        text-align: center;
+    }
+    .hero-img img {
+        width: 90%;
+    }
+
+    .hero-text .hero-link{
+        margin-top: 5rem;
+    }
+    .section-how {
+        padding: 5.6rem 0;
+    }
+
+    .section-how-heading {
+        margin-top: -3rem;
+        padding: 0 1rem;
+    }
+    .container-step-01 {
+        margin: 7rem 0;
+    }
+
+    .container-step-02{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .step-01-img-box {
+        margin: 4rem 0;
+    }
+
+    .step-01-img-box img {   
+        height: 21rem;
+    }
+    .step-02-img-box img {   
+        height: 21rem;
+    }
+          
+    .section-how-heading .heading-one {
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin-bottom: 2.1rem;
+    }
+    
+    .section-how-heading .heading-second {
+        font-size: 2.3rem;
+        
+    }
+
+    .step-text-01 h3 {
+        font-size: 1.4rem;
+    }
+
+    .step-text-01 .step-description-01 {
+        padding-top: 2rem;
+    }
+
+    .step-text-01 h3 {
+        padding-top: 1rem;
+    }
+
+    .section-meals-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .meal-responsive{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .box-diet{
+        margin-top: 4rem;
+    }
+
+    .section-testimonials{
+        gap: 2rem;
+        margin-top: 0;
+        display: grid;
+        margin-top: 0;
+        grid-template-columns: 67fr 42fr;
+
+    }
+
+
+    .testimonials-gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .gallery-item {
+        overflow: hidden;
+    }
+
+    .testimonials-heading{
+        margin-bottom: 5rem;
+    }
+
+    .testimonials-heading h2 {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        font-size: 1.9rem;
+    }
+
+    .testimonials-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin-left: 4rem;
+    }
+    .section-cards-icon{
+        width: 100vw;
+    }
+
+  
+    .card-icons{
+        width: 23%;  
+  }
+
+  .card-icons{
+    width: 23%;
+    margin-left: 3rem;  
+}
+
+.section-form-container{
+    height: 31rem;
+}
+
+  .cards-icon-heading, .cards-icon-text{
+    width:100%
+  }
+
+  .form-list input, select {
+    padding: 0.6rem 0.1rem;
+}
+ 
+.btn-form{
+    width: 15rem;
+    margin-left: 0;
+}
+
+.page-footer-content{
+    width: 100%;
+}
+.page-footer-content{
+    width: 100%;
+}
+.page-footer-content div{
+    padding-right: 2rem;
+}
+.footer-img img {
+    padding-left: 2rem;
+}
+
+.footer-logo-text {
+    width: 15rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+}
+
+
+
+@media only screen and (max-width:992px){
+
+    .hero-section{
+        text-align: center;
+    }
+    .hero .hero-section {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-section .hero-text h1{
+        font-size: 2.1rem;
+    }
+
+    .hero-text .hero-link{
+        justify-content: center;
+    }
+
+    .delivered-meals{
+        justify-content: center;
+    }
+
+    .hero-img {
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .hero-text .hero-link{
+        margin-top: 3rem;
+    }
+
+    .section-feauture {
+        padding: 1.8rem 0 3.2rem 0;
+    }
+    
+
+    .heading-section-feautured {
+        font-size: 0.5rem;
+        margin-bottom: 1.4rem;
+    }
+    
+
+    .section-feauture-logo {
+        padding: 0 3rem;
+    }
+    .section-feauture-logo img {
+        height: 1.5rem;
+    }
+
+    .step-text-01 .step-description-01 {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .step-text-02  {
+        padding-top: 0;
+    }
+    .step-text-02 .step-description-02 {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .step-01-img-box img {
+        height: 17rem;
+    }
+
+    .step-02-img-box img {
+        height: 17rem;
+    }
+
+    .step-01-img-box{
+        margin-left:3rem;
+        align-items: center;
+    }
+    
+    .step-img-box::before {
+        width: 16rem;
+        height: 16rem;
+        background-color: #fdf2e9;
+        z-index: -2;
+    }
+    
+    .step-img-box::after {
+        width: 12rem;
+        height: 12rem;
+        background-color: #fae5d3;
+        z-index: -1;
+    }
+
+    .meal-responsive{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .section-meals-header h2{
+        font-size: 2rem;
+    }
+
+    .meals-box{
+        width: 40% !important;
+    }
+
+
+    .box-meal-vegan-content p{
+       font-size: 1.6rem;
+    }
+    .box-diet{
+        width: 50%;
+    }
+
+
+   .section-testimonials{
+    display: flex;
+    flex-direction: column;
+   } 
+
+   .testimonials-gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+.testimonial blockquote{
+    width: 15rem;
+}
+
+.testimonials-content {
+  margin-bottom: 10rem;
+  gap: 3rem;
+}
+
+.all-tetimonials-content{
+    width: 100%;
+}
+
+.testimonials-heading{
+    margin-bottom: 3rem;
+}
+.pricing-content{
+    width: 45%;
+}  
+
+.btn-pricing {
+    margin-top: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-icons{
+    width: 25%;
+    margin-left: 3rem;  
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-list input, select {
+    padding: 0.8rem 5.1rem;
+}
+.section-form-container{
+    height: 45rem;
+}
+
+.form-list{
+    position: relative;
+}
+
+.btn-form{
+    position: absolute;
+    left: 0rem;
+    width: 25rem;
+    height: 3.5rem;
+    bottom: -5rem;
+}
+
+}
+
+@media only screen and (max-width:768px){
+    .navigation .nav-ul {
+        display: none;
+    }
+
+    .mobile-menu
+        {
+            display: block;
+        }
+    
+        .section-feauture {
+            padding: 2rem 0 ;
+        }
+        .section-feauture-logo {
+            padding: 0 1rem;
+        }
+        .section-feauture-logo img {
+            height: 1.2rem;
+        }
+
+        .step-text-01 .step-description-01 {
+            width: 100%;
+            padding-right: 1rem;
+        }
+        .step-text-02 .step-description-02 {
+        width: 100%;
+        padding-right: 1rem;
+        }
+
+       .step-img-box::before {
+        width: 15rem;
+        height: 15rem;
+        background-color: #fdf2e9;
+        z-index: -2;
+       }
+    
+      .step-img-box::after {
+        width: 11rem;
+        height: 11rem;
+        background-color: #fae5d3;
+        z-index: -1;
+       }
+
+      .meal-responsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+        width: 100%;
+       }
+
+      .meals-box{
+        width: 60% !important;
+       
+      }
+      .box-diet{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+      .box-diet-content h2 {
+        padding-left: 0;
+        width: 100%;
+        font-size: 1.4rem;
+     }
+
+      .pricing-content{
+        width: 46%;
+    }  
+     .section-pricing-header {
+        margin: 4rem 3rem;
+    }
+      .section-pricing-header h2 {
+        font-size: 1.6rem;
+    }
+   
+   
+    .btn-eating-well {
+        padding: 1rem 1.2rem;
+    }
+
+    .section-cards-icon{
+        width: 100vw;
+    }
+
+    .section-cards-icon-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:4rem;
+    }
+
+    .card-icons{
+        width: 50%;
+        margin-left: 4rem;
+  }
+    .card-icons h2{
+       font-size: 1.4rem;
+       width: 100%;
+}
+
+.page-footer-content {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 4rem;
+}
+
+.footer-account{
+    padding-left: 2rem;
+}
+    
+    }
+
+@media only screen and (max-width:600px){
+
+    .hero {
+        padding: 0 2rem;
+    }
+    .delivered-meals{
+        flex-wrap: wrap;
+    }
+
+    .hero-section .hero-text .delivered-text {
+        padding-top: 1rem;
+    }
+
+    .delivered-images {
+        margin-top: 2rem;
+    }
+
+    .btn-eating-well,
+     .btn-learn-more{
+        padding: 1rem .8rem;
+     }
+    .heading-section-feautured {
+        font-size: 0.4rem;
+        font-weight: 800;
+        margin-bottom: 1.4rem;
+     }
+
+    .section-feauture-logo {
+        padding: 0 1rem;
+      }
+    .section-feauture-logo img {
+        height: 0.7rem;
+      }
+    .section-how{
+        display: flex;
+        flex-wrap: wrap;
+        padding:3rem 0;
+      }
+
+      .container-step-01 {
+        margin: 4rem 0;
+    }
+
+      .section-how-heading {
+        position: relative;
+        margin: 4rem 0;
+       }
+        .step-text-01 .step-description-01 {
+            width: 200%;
+            padding-right: 1rem;
+       }
+
+       .heading-second{
+        font-size: 1.9rem;
+       }
+
+       .container-step-02{
+        display: flex;
+        flex-direction: column-reverse;
+       }
+       .step-text-02 .step-description-02 {
+        width: 200%;
+        padding-right: 1rem;
+       }
+
+       .step-text-02{
+        padding-left: 0;
+       }
+
+       .container-step-01{
+       display: flex;
+        flex-direction: column;
+      }
+
+      .step-01-img-box{
+        margin-top: 6rem;
+        margin-left: 0;
+        width: 100%;
+        justify-content: center;
+      }
+       .step-02-img-box{
+        margin-top: 6rem;
+        width: 100%;
+        justify-content: center;
+      }
+
+      .meals-box{
+        width: 80% !important;
+      }
+
+      .meals-lists{
+        width: 100%;
+        font-size: 0.9rem;
+      }
+      .box-meal-vegan-content p {
+        font-size: 1.4rem;
+        width: 100%;
+    }
+    
+      .box-meal-vegetarian-content p {
+        font-size: 1.3rem;
+        width: 100%;
+    }  
+    
+   
+
+
+      .step-img-box img{
+        height: 12rem;
+    }
+      .testimonials-gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+
+    .testimonials-heading h2{
+        font-size: 1.4rem;
+        width:100%;
+
+    }
+
+    .section-meals-header h2 {
+        font-size: 1.9rem;
+        padding-top: 1rem;
+    }
+
+    .testimonials-content {
+       display: flex;
+       flex-direction: column;
+      } 
+
+      .testimonial blockquote{
+        width: 100%;
+        padding-top: 1rem;
+    }
+    
+    .section-pricing-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .pricing-content{
+        width: 70%;
+        margin-bottom: 3rem;
+    }
+    .section-cards-icon-content{
+        display: flex;
+     flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .card-icons{
+        width: 70%;
+  }
+
+  .section-form-container{
+    display: grid;
+   grid-template-columns: 1fr ;
+}
+
+.page-footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .footer-account{
+    padding-left: 0;
+}
+   
+.footer-img img {
+    padding-left: 0;
+}
+.footer-img img {
+    padding-left: 0;
+}
+
+  }
+
+  
+
+
+@media only screen and (max-width:350px){
+    .hero-header {
+        padding: 2rem 0.5rem;
+    }
+
+    .hero-text .hero-link{
+        flex-wrap: wrap;
+    }
+
+    .btn-eating-well,
+     .btn-learn-more{
+        width: 100%;
+    }
+
+    .btn-eating-well{
+       margin-right: 0;
+   }
+     .btn-learn-more{
+        margin-top: 1rem ;
+    }
+
+    .section-how {
+        padding: 2rem 0;
+        margin-left: 2rem;
+    }
+
+    .section-how-heading {
+        padding: 0;
+    }
+
+    .section-how-heading .heading-second {
+        font-size: 1.7rem;
+        width: 15rem;
+    }
+
+    .section-how-heading .heading-one {
+        margin-bottom: 1rem;
+      }
+    .step-text-02 .step-description-02 {
+        width: 200%;
+        padding-top: 2rem;
+        padding-right: 1rem;
+       }
+
+       .container-step-01 {
+        margin: 0;
+    }
+       .step-text-01 .step-description-01 {
+        width: 200%;
+        padding-right: 1rem;
+       }
+
+       .step-text-02 .step-description-02 {
+        width: 200%;
+        padding-right: 1rem;
+       }
+    
+
+       .step-img-box {
+      width: 90%;
+      margin-top: 3rem;
+    }
+
+    .step-img-box img{
+        height: 12rem;
+    }
+
+    .step-text-02 {
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .step-text-02 h3{
+        font-size: 1.4rem;
+        width: 15rem;
+} 
+.step-text-01 h3{
+    font-size: 1.4rem;
+    width: 15rem;
+}
+.step-img-box::before {
+    width: 12rem;
+    height: 12rem;
+    background-color: #fdf2e9;
+    z-index: -2;
+}
+
+.step-img-box::after {
+    width: 8rem;
+    height: 8rem;
+    background-color: #fae5d3;
+    z-index: -1;
+}
+
+.pricing-content{
+    width:100%;
+    margin-bottom: 3rem;
+}
+
+.meals-box{
+    width: 100% !important;
+}
+
+ .box-meal-vegan-content p {
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+
+.box-meal-vegetarian-content p {
+    font-size: 1.1rem;
+} 
+
+.box-meal-vegetarian-content, .box-meal-vegan-content {
+    padding: 2rem 1rem;
+}
+.meals-lists {
+    font-size: 1rem;
+    margin-top: -1.2rem;
+} 
+
+.box-diet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box-diet-content h2 {
+    padding-left: 0;
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.section-meals-header h2 {
+    font-size: 1.5rem;
+}
+
+    }
+
+
+ 
+
